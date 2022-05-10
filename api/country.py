@@ -16,9 +16,8 @@ class handler(BaseHTTPRequestHandler):
             full_url = url + dic['name']
             request = requests.get(full_url)
             data = request.json()
-            print(data)
-
-            
+            capital = dic['name'].capitalize()
+            country = str(data[0]['name']['common'])          
             
             msg = 'test'
             self.send_response(200)
