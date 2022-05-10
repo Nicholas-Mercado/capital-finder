@@ -19,7 +19,7 @@ class handler(BaseHTTPRequestHandler):
             capital = dic['name'].capitalize()
             country = str(data[0]['name']['common'])          
             
-            msg = 'test'
+            msg = f'{capital} is the capital of {country}.'
             self.send_response(200)
             self.send_header('Content-type','text/plain')
             self.end_headers()
