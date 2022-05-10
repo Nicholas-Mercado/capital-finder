@@ -8,7 +8,9 @@ This project uses REST Countries API and  Vercel server to return data from get 
 
 #### Find capital by country
 
-https://capital-finder-b1g8mgtu7-nicholasamerc-gmailcom.vercel.app/api/capitol_of?name="add country name here"
+https://capital-finder-kappa.vercel.app/api/capitol_of?name="add country name here"
+
+ex- https://capital-finder-kappa.vercel.app/api/capitol_of?name=France
 
 Successful return
 
@@ -16,7 +18,9 @@ Successful return
 
 #### Find country by capital
 
-https://capital-finder-kappa.vercel.app/country/name= "add capitol name here"
+https://capital-finder-kappa.vercel.app/api/country?name="add capitol name here"
+
+ex- https://capital-finder-kappa.vercel.app/api/country?name=Paris
 
 Successful return
 
